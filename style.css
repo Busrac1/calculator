@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  font-family: 'Inconsolata';
+}
+
+.heading {
+  color: coral;
+  text-shadow: 2px 2px 20px rgb(197, 81, 39);
+  letter-spacing: 3px;
+}
+
+.container {
+  background-color:rgb(186, 142, 88);
+  width: 60vw;
+  height: 80vh;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.greet {
+  align-self: flex-start;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+}
+
+.greet input {
+  border: none;
+  outline: none;
+  font-size: 21px;
+  font-weight: 400;
+  background-color:rgb(186, 142, 88);
+  color: #ccc;
+  
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-family: 'Montserrat';
+}
+
+.double {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  width: 100%;
+}
+
+.form-harcama,
+.form-fiyat {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+
+.form-durum {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  outline: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 20px;
+ 
+}
+.ekle-btn{
+    background-color: coral;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+.toplam{
+  background-color: rgb(207, 62, 10);
+  border-radius: 10px;
+  padding: 10px 40px;
+  font-size: 21px;
+}
+
+.toplam span{
+  color: white;
+}
+
+/* liste */
+.liste{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px;
+  width: 100%;
+  overflow: auto;
+}
+.harcama{
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+ padding: 5px 10px;
+ border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+} 
+
+.buttons img{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.harcama h2:nth-child(2){
+  color: rgb(105, 130, 206);
+}.payed{
+  opacity: 0.7;
+
+}
+
+.payed h2:nth-child(1){
+ text-decoration: line-through;
+  
+}
+
+.payed h2:nth-child(2){
+  color: greenyellow;
+   
+ }
